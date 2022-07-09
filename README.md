@@ -105,7 +105,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.snanvariancech;
+})();
 })();
 </script>
 ```
@@ -222,6 +224,7 @@ var v = snanvariancech.ndarray( N, 1, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-snanvariancech@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -235,6 +238,7 @@ console.log( x );
 var v = snanvariancech( x.length, 1, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -349,7 +353,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [variance]: https://en.wikipedia.org/wiki/Variance
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -363,15 +367,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanvariancech]: https://github.com/stdlib-js/stats-base-dnanvariancech/tree/umd
+[@stdlib/stats/base/dnanvariancech]: https://github.com/stdlib-js/stats-base-dnanvariancech/tree/umd/tree/umd
 
-[@stdlib/stats/base/nanvariancech]: https://github.com/stdlib-js/stats-base-nanvariancech/tree/umd
+[@stdlib/stats/base/nanvariancech]: https://github.com/stdlib-js/stats-base-nanvariancech/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanstdevch]: https://github.com/stdlib-js/stats-base-snanstdevch/tree/umd
+[@stdlib/stats/base/snanstdevch]: https://github.com/stdlib-js/stats-base-snanstdevch/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanvariance]: https://github.com/stdlib-js/stats-base-snanvariance/tree/umd
+[@stdlib/stats/base/snanvariance]: https://github.com/stdlib-js/stats-base-snanvariance/tree/umd/tree/umd
 
-[@stdlib/stats/base/svariancech]: https://github.com/stdlib-js/stats-base-svariancech/tree/umd
+[@stdlib/stats/base/svariancech]: https://github.com/stdlib-js/stats-base-svariancech/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
